@@ -3,6 +3,7 @@
 ## 🎨 User Interface
 
 ### Layout Overview
+
 ```
 ┌─────────────────────────────────────────────────────┐
 │                                                     │
@@ -40,6 +41,7 @@
 ### Card Flip Animation
 
 **Front (Question):**
+
 ```
 ┌───────────────────────────────┐
 │                               │
@@ -56,6 +58,7 @@
 ```
 
 **Back (Answer) - After Flip:**
+
 ```
 ┌───────────────────────────────┐
 │                               │
@@ -72,6 +75,7 @@
 ## 🎨 Color Scheme
 
 ### Main Colors
+
 - **Background**: Gradient from slate-900 → slate-800 → slate-900
 - **Card (Question)**: slate-700 with blue-400 border
 - **Card (Answer)**: slate-800 with green-500 border
@@ -80,6 +84,7 @@
 - **Progress Bar**: Gradient blue-500 → green-500
 
 ### States
+
 - **Question State**: Blue accent (#60a5fa)
 - **Answer State**: Green accent (#10b981)
 - **Disabled**: 40% opacity
@@ -89,25 +94,29 @@
 ## ⌨️ Interactions
 
 ### Mouse/Touch
+
 - **Click Card**: Flip to reveal/hide answer
 - **Hover Card**: Scale up slightly
 - **Click Buttons**: Navigate or toggle answer
 - **Hover Buttons**: Color change
 
 ### Keyboard
+
 - **Arrow Left/Up**: Previous question
-- **Arrow Right/Down**: Next question  
+- **Arrow Right/Down**: Next question
 - **Space/Enter**: Reveal/hide answer
 - **Tab**: Navigate between buttons (accessibility)
 
 ## 📱 Responsive Behavior
 
 ### Desktop (>768px)
+
 - Card: Large (max-width: 2xl)
 - Text: 3xl for questions, 2xl for answers
 - Comfortable spacing
 
 ### Mobile (<768px)
+
 - Card: Full width with padding
 - Text: 2xl for questions, xl for answers
 - Stacked buttons (if needed)
@@ -116,18 +125,21 @@
 ## 🎭 Animation Details
 
 ### Card Flip
+
 - **Duration**: 0.6s
 - **Easing**: ease-in-out
 - **Transform**: rotateY(0° → 180°)
 - **Trigger**: Click or keyboard
 
 ### Progress Bar
+
 - **Duration**: 0.3s
 - **Easing**: ease-out
 - **Transform**: Width change
 - **Trigger**: Navigation
 
 ### Button Interactions
+
 - **Hover**: Background color transition (0.2s)
 - **Scale**: Subtle feedback on click
 - **Focus**: Ring outline for accessibility

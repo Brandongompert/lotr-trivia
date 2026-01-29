@@ -34,7 +34,11 @@ export function TriviaDeck({ questions }: TriviaDeckProps) {
 
   return (
     <div className="w-full px-4">
-      <ProgressBar progress={progress} currentIndex={currentIndex} totalQuestions={totalQuestions} />
+      <ProgressBar
+        progress={progress}
+        currentIndex={currentIndex}
+        totalQuestions={totalQuestions}
+      />
 
       <TriviaCard
         question={currentQuestion}
