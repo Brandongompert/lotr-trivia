@@ -1,0 +1,62 @@
+{
+  "title": "The Lord of the Rings Trivia",
+  "description": "Test your knowledge of Middle-earth",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is the name of Gandalf's sword?",
+      "answer": "Glamdring (also known as Foe-hammer)",
+      "category": "Weapons",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2",
+      "question": "What is the Elvish word for friend, spoken to open the Doors of Durin?",
+      "answer": "Mellon",
+      "category": "Languages",
+      "difficulty": "easy"
+    },
+    {
+      "id": "3",
+      "question": "Who is the Lord of the Nazgûl?",
+      "answer": "The Witch-king of Angmar",
+      "category": "Characters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "4",
+      "question": "What was Aragorn's sword called after it was reforged?",
+      "answer": "Andúril (Flame of the West)",
+      "category": "Weapons",
+      "difficulty": "easy"
+    },
+    {
+      "id": "5",
+      "question": "What is the name of Treebeard in his own language?",
+      "answer": "Fangorn",
+      "category": "Characters",
+      "difficulty": "hard"
+    },
+    {
+      "id": "6",
+      "question": "How many Rings of Power were given to the Elves?",
+      "answer": "Three",
+      "category": "Lore",
+      "difficulty": "easy"
+    },
+    {
+      "id": "7",
+      "question": "What is the Elvish name for Rivendell?",
+      "answer": "Imladris",
+      "category": "Locations",
+      "difficulty": "medium"
+    },
+    {
+      "id": "8",
+      "question": "Who was the original bearer of Sting before Bilbo?",
+      "answer": "It was crafted in Gondolin, but its original owner is unknown",
+      "category": "Weapons",
+      "difficulty": "hard"
+    }
+  ]
+}
