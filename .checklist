@@ -1,0 +1,25 @@
+Core Setup
+• Add Tailwind CSS config and base styles
+• Add Framer Motion animations
+• Define trivia TypeScript types
+• Create sample trivia JSON
+
+UI Components
+• TriviaCard (animated flip or slide)
+• TriviaDeck (question progression logic)
+• ProgressBar (visual progress indicator)
+• Disclaimer (unofficial fan site notice)
+
+Functionality
+• Load trivia from static JSON
+• Handle next / previous navigation
+• Handle answer reveal
+• Keyboard navigation support
+• Optional localStorage progress persistence
+
+Quality
+• Clean folder structure
+• No unnecessary dependencies
+• No backend assumptions
+• App runs with npm run dev
+• App builds with npm run build
