@@ -57,6 +57,300 @@
       "answer": "It was crafted in Gondolin, but its original owner is unknown",
       "category": "Weapons",
       "difficulty": "hard"
+    },
+    {
+      "id": "9",
+      "question": "What is the name of Frodo's Elven cloak?",
+      "answer": "A grey-green cloak woven by the Galadhrim in Lórien",
+      "category": "Items",
+      "difficulty": "medium"
+    },
+    {
+      "id": "10",
+      "question": "Who was the original Dark Lord before Sauron?",
+      "answer": "Morgoth (Melkor)",
+      "category": "Lore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "11",
+      "question": "What is the name of Aragorn's horse?",
+      "answer": "Brego",
+      "category": "Characters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "12",
+      "question": "What are the two towers referred to in 'The Two Towers'?",
+      "answer": "Orthanc (Saruman's tower) and Cirith Ungol (or Barad-dûr and Orthanc, per Tolkien)",
+      "category": "Locations",
+      "difficulty": "hard"
+    },
+    {
+      "id": "13",
+      "question": "What is the name of Bilbo's book about his adventures?",
+      "answer": "There and Back Again",
+      "category": "Lore",
+      "difficulty": "easy"
+    },
+    {
+      "id": "14",
+      "question": "How many members were in the original Fellowship of the Ring?",
+      "answer": "Nine",
+      "category": "Characters",
+      "difficulty": "easy"
+    },
+    {
+      "id": "15",
+      "question": "What is the name of the White Tree of Gondor?",
+      "answer": "Nimloth (the sapling planted by Aragorn)",
+      "category": "Lore",
+      "difficulty": "medium"
+    },
+    {
+      "id": "16",
+      "question": "What creature was Gollum before he found the Ring?",
+      "answer": "A Stoor Hobbit (river-folk)",
+      "category": "Characters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "17",
+      "question": "What is the name of the mountain where the Ring was forged?",
+      "answer": "Mount Doom (Orodruin)",
+      "category": "Locations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "18",
+      "question": "Who was Arwen's father?",
+      "answer": "Elrond Half-elven",
+      "category": "Characters",
+      "difficulty": "easy"
+    },
+    {
+      "id": "19",
+      "question": "What is the name of the inn where Frodo first meets Aragorn?",
+      "answer": "The Prancing Pony",
+      "category": "Locations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "20",
+      "question": "What is Galadriel's gift to Frodo?",
+      "answer": "The Phial of Galadriel (containing the light of Eärendil's star)",
+      "category": "Items",
+      "difficulty": "medium"
+    },
+    {
+      "id": "21",
+      "question": "What does Samwise plant throughout the Shire after returning home?",
+      "answer": "Seeds from Galadriel's gift, including a mallorn tree",
+      "category": "Lore",
+      "difficulty": "medium"
+    },
+    {
+      "id": "22",
+      "question": "What is the true name of Strider?",
+      "answer": "Aragorn II Elessar, son of Arathorn",
+      "category": "Characters",
+      "difficulty": "easy"
+    },
+    {
+      "id": "23",
+      "question": "How many Rings of Power were given to the Dwarves?",
+      "answer": "Seven",
+      "category": "Lore",
+      "difficulty": "easy"
+    },
+    {
+      "id": "24",
+      "question": "What is the name of the spider who attacks Frodo and Sam?",
+      "answer": "Shelob",
+      "category": "Characters",
+      "difficulty": "easy"
+    },
+    {
+      "id": "25",
+      "question": "What is Legolas's father's name?",
+      "answer": "Thranduil, King of the Woodland Realm",
+      "category": "Characters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "26",
+      "question": "What is the inscription on the One Ring?",
+      "answer": "One Ring to rule them all, One Ring to find them, One Ring to bring them all, and in the darkness bind them",
+      "category": "Lore",
+      "difficulty": "medium"
+    },
+    {
+      "id": "27",
+      "question": "Who was the King of Rohan before Théoden?",
+      "answer": "Thengel, Théoden's father",
+      "category": "Characters",
+      "difficulty": "hard"
+    },
+    {
+      "id": "28",
+      "question": "What are the giant elephants called that the Haradrim ride?",
+      "answer": "Mûmakil (or Oliphaunts)",
+      "category": "Creatures",
+      "difficulty": "medium"
+    },
+    {
+      "id": "29",
+      "question": "What is Gimli's father's name?",
+      "answer": "Glóin",
+      "category": "Characters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "30",
+      "question": "What gift does Galadriel give to Gimli?",
+      "answer": "Three strands of her golden hair",
+      "category": "Lore",
+      "difficulty": "medium"
+    },
+    {
+      "id": "31",
+      "question": "What is the Elvish name for Gandalf?",
+      "answer": "Mithrandir (Grey Pilgrim)",
+      "category": "Languages",
+      "difficulty": "medium"
+    },
+    {
+      "id": "32",
+      "question": "Who kills the Witch-king of Angmar?",
+      "answer": "Éowyn and Merry together",
+      "category": "Lore",
+      "difficulty": "medium"
+    },
+    {
+      "id": "33",
+      "question": "What does Éowyn say before striking the Witch-king?",
+      "answer": "I am no man!",
+      "category": "Lore",
+      "difficulty": "easy"
+    },
+    {
+      "id": "34",
+      "question": "What is the name of the realm ruled by Lady Galadriel and Lord Celeborn?",
+      "answer": "Lothlórien (or Lórien)",
+      "category": "Locations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "35",
+      "question": "What is the name of the forest where the Ents live?",
+      "answer": "Fangorn Forest",
+      "category": "Locations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "36",
+      "question": "How many Rings of Power were given to Men?",
+      "answer": "Nine",
+      "category": "Lore",
+      "difficulty": "easy"
+    },
+    {
+      "id": "37",
+      "question": "What type of creature is Tom Bombadil?",
+      "answer": "Unknown - Tolkien never explicitly stated his nature",
+      "category": "Characters",
+      "difficulty": "hard"
+    },
+    {
+      "id": "38",
+      "question": "What is the name of Éomer's sister?",
+      "answer": "Éowyn",
+      "category": "Characters",
+      "difficulty": "easy"
+    },
+    {
+      "id": "39",
+      "question": "What is Sauron's fortress called?",
+      "answer": "Barad-dûr (the Dark Tower)",
+      "category": "Locations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "40",
+      "question": "What is the name of Gandalf's horse?",
+      "answer": "Shadowfax, Lord of all horses",
+      "category": "Characters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "41",
+      "question": "What are the three Elven rings called?",
+      "answer": "Vilya, Narya, and Nenya",
+      "category": "Lore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "42",
+      "question": "Who bore Vilya, the mightiest of the Three Rings?",
+      "answer": "Elrond",
+      "category": "Lore",
+      "difficulty": "hard"
+    },
+    {
+      "id": "43",
+      "question": "What was Gollum's original name?",
+      "answer": "Sméagol",
+      "category": "Characters",
+      "difficulty": "easy"
+    },
+    {
+      "id": "44",
+      "question": "What is the capital city of Gondor?",
+      "answer": "Minas Tirith (formerly Minas Anor)",
+      "category": "Locations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "45",
+      "question": "What is the name of Saruman's fortress?",
+      "answer": "Isengard (with the tower of Orthanc)",
+      "category": "Locations",
+      "difficulty": "easy"
+    },
+    {
+      "id": "46",
+      "question": "Who is the eldest of the four Hobbit companions?",
+      "answer": "Frodo Baggins",
+      "category": "Characters",
+      "difficulty": "medium"
+    },
+    {
+      "id": "47",
+      "question": "What is the name of the pass that Frodo and Sam take to enter Mordor?",
+      "answer": "Cirith Ungol",
+      "category": "Locations",
+      "difficulty": "medium"
+    },
+    {
+      "id": "48",
+      "question": "What does 'Mordor' mean in the Black Speech?",
+      "answer": "The Black Land",
+      "category": "Languages",
+      "difficulty": "hard"
+    },
+    {
+      "id": "49",
+      "question": "What are the beacon hills of Gondor used for?",
+      "answer": "To signal for aid from Rohan",
+      "category": "Lore",
+      "difficulty": "medium"
+    },
+    {
+      "id": "50",
+      "question": "Who was the first bearer of the One Ring after Sauron?",
+      "answer": "Isildur",
+      "category": "Lore",
+      "difficulty": "easy"
     }
   ]
 }
