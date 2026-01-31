@@ -10,6 +10,7 @@ interface UseTriviaReturn {
   goToNext: () => void;
   goToPrevious: () => void;
   toggleAnswer: () => void;
+  resetProgress: () => void;
   canGoNext: boolean;
   canGoPrevious: boolean;
 }
@@ -40,7 +41,14 @@ export function useTrivia(questions: TriviaQuestion[]): UseTriviaReturn {
 
   const currentQuestion = questions[currentIndex] || null;
   const totalQuestions = questions.length;
-  const progress = totalQuestions > 0 ? ((currentIndex + 1) / totalQuestions) * 100 : 0;
+  const progress =
+    totalQuestions > 0 ? ((currentIndex + 1) / totalQuestions) * 100 : 0;
+
+  const resetProgress = useCallback(() => {
+    setCurrentIndex(0);
+    setIsAnswerRevealed(false);
+    localStorage.removeItem(STORAGE_KEY);
+  }, []);
 
   const goToNext = useCallback(() => {
     if (currentIndex < questions.length - 1) {
@@ -88,6 +96,7 @@ export function useTrivia(questions: TriviaQuestion[]): UseTriviaReturn {
     goToNext,
     goToPrevious,
     toggleAnswer,
+    resetProgress,
     canGoNext: currentIndex < questions.length - 1,
     canGoPrevious: currentIndex > 0,
   };

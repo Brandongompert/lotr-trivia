@@ -8,15 +8,15 @@ const triviaData = triviaDataRaw as TriviaData;
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-12">
-      <header className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400 mb-3 text-shadow">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center py-12 px-4">
+      <header className="text-center mb-12 max-w-4xl w-full">
+        <h1 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-green-400 mb-3 text-shadow">
           {triviaData.title}
         </h1>
         <p className="text-slate-400 text-lg">{triviaData.description}</p>
       </header>
 
-      <main className="w-full max-w-4xl">
+      <main className="w-full max-w-4xl px-4">
         <TriviaDeck questions={triviaData.questions} />
       </main>
 
