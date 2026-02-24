@@ -10,7 +10,11 @@ interface TriviaCardProps {
 /**
  * Animated flashcard component that flips to reveal the answer
  */
-export function TriviaCard({ question, isAnswerRevealed, onToggleAnswer }: TriviaCardProps) {
+export function TriviaCard({
+  question,
+  isAnswerRevealed,
+  onToggleAnswer,
+}: TriviaCardProps) {
   return (
     <div className="w-full max-w-2xl mx-auto perspective-1000">
       <motion.div
@@ -18,6 +22,7 @@ export function TriviaCard({ question, isAnswerRevealed, onToggleAnswer }: Trivi
         onClick={onToggleAnswer}
         whileHover={{ scale: 1.02 }}
         whileTap={{ scale: 0.98 }}
+        data-umami-event={`flip-card-${question.id}`}
       >
         <motion.div
           className="absolute inset-0 flex flex-col items-center justify-center p-8 rounded-2xl shadow-2xl"

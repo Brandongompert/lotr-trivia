@@ -92,6 +92,7 @@ export function TriviaDeck({ questions }: TriviaDeckProps) {
           disabled={!canGoPrevious}
           className="px-6 py-3 rounded-lg bg-slate-700 text-slate-200 font-medium transition-all duration-200 hover:bg-slate-600 disabled:opacity-40 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-900"
           aria-label="Previous question"
+          data-umami-event="previous-question"
         >
           ← Previous
         </button>
@@ -100,6 +101,11 @@ export function TriviaDeck({ questions }: TriviaDeckProps) {
           onClick={toggleAnswer}
           className="px-6 py-3 rounded-lg bg-blue-600 text-white font-medium transition-all duration-200 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-slate-900"
           aria-label={isAnswerRevealed ? 'Hide answer' : 'Reveal answer'}
+          data-umami-event={
+            isAnswerRevealed
+              ? `hide-answer-${currentQuestion.id}`
+              : `reveal-answer-${currentQuestion.id}`
+          }
         >
           {isAnswerRevealed ? 'Hide Answer' : 'Reveal Answer'}
         </button>
@@ -119,6 +125,13 @@ export function TriviaDeck({ questions }: TriviaDeckProps) {
               : confettiShown
                 ? 'Reset quiz'
                 : 'Finish quiz'
+          }
+          data-umami-event={
+            canGoNext
+              ? 'next-question'
+              : confettiShown
+                ? 'reset-quiz'
+                : 'finish-quiz'
           }
         >
           {getNextButtonContent()}
