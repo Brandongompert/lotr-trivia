@@ -1,4 +1,4 @@
-.PHONY: help build run stop clean dev test deploy
+.PHONY: help build run stop clean dev test deploy umami-up umami-down umami-logs umami-backup
 
 help:
 	@echo "LOTR Trivia - Docker Commands"
@@ -19,6 +19,13 @@ help:
 	@echo "  make down         - Stop docker-compose"
 	@echo "  make logs         - View logs"
 	@echo "  make update       - Pull latest image and restart"
+	@echo ""
+	@echo "Umami Analytics:"
+	@echo "  make umami-up     - Start Umami and database"
+	@echo "  make umami-down   - Stop Umami services"
+	@echo "  make umami-logs   - View Umami logs"
+	@echo "  make umami-backup - Backup Umami database"
+	@echo "  make umami-status - Check Umami status"
 
 # Development
 dev:
@@ -65,3 +72,28 @@ update:
 # Combined commands
 deploy-local: build run
 	@echo "✅ Deployed locally on http://localhost:8080"
+
+# Umami Analytics commands
+umami-up:
+	docker-compose up -d umami umami-db
+	@echo "⏳ Waiting for Umami to start..."
+	@sleep 10
+	@echo "✅ Umami is running on http://localhost:3000"
+	@echo "   Default login: admin / umami"
+	@echo "   ⚠️  Change the password immediately!"
+
+umami-down:
+	docker-compose stop umami umami-db
+
+umami-logs:
+	docker-compose logs -f umami
+
+umami-backup:
+	@echo "Creating Umami database backup..."
+	@mkdir -p ./backups
+	@docker exec umami-db pg_dump -U umami umami > ./backups/umami-backup-$(shell date +%Y%m%d-%H%M%S).sql
+	@echo "✅ Backup created in ./backups/"
+
+umami-status:
+	@echo "Umami Services Status:"
+	@docker-compose ps umami umami-db

@@ -3,6 +3,14 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
+# Build arguments for Umami analytics
+ARG VITE_UMAMI_WEBSITE_ID
+ARG VITE_UMAMI_URL
+
+# Set environment variables for build
+ENV VITE_UMAMI_WEBSITE_ID=$VITE_UMAMI_WEBSITE_ID
+ENV VITE_UMAMI_URL=$VITE_UMAMI_URL
+
 # Copy package files
 COPY package.json bun.lock* package-lock.json* yarn.lock* pnpm-lock.yaml* ./
 
